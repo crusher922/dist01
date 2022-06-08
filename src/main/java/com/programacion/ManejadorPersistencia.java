@@ -1,5 +1,5 @@
 package com.programacion;
 
 public interface ManejadorPersistencia {
-    CuentaBancaria buscarCuenta(String numero);
+    CuentaBancariaImpl buscarCuenta(String numero);
 }
